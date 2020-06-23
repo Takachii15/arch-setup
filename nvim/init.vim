@@ -477,6 +477,7 @@ let g:which_key_map.e = {
 let g:which_key_map.f = {
 			\ 'name' : '+FZF',
 <<<<<<< HEAD
+<<<<<<< HEAD
 			\ 'i' : ['Files', 'Search for files'],
 			\ 'bl' : ['Buffer', 'Search for buffer'],
 			\ 'gl' : ['GFiles', 'Git list'],
@@ -497,6 +498,8 @@ let g:which_key_map.f = {
 			\ 'M' : ['Maps', 'Search for mappings'],
             \ 'e' : ['Marketplace', 'Search for coc extensions']
 =======
+=======
+>>>>>>> parent of d873814... Keymap and plugin settings update
 			\ 'fi' : ['Files', 'Search for files'],
 			\ 'fbl' : ['Buffer', 'Search for buffer'],
 			\ 'fgl' : ['GFiles', 'Git list'],
@@ -515,6 +518,9 @@ let g:which_key_map.f = {
 			\ 'fbc' : ['BCommits', 'Search Commits in buffers'],
 			\ 'fa' : ['Commands', 'Search Action/Command'],
 			\ 'fM' : ['Maps', 'Search for mappings'],
+<<<<<<< HEAD
+>>>>>>> parent of d873814... Keymap and plugin settings update
+=======
 >>>>>>> parent of d873814... Keymap and plugin settings update
 			\}
 
@@ -697,6 +703,9 @@ nnoremap <Leader>bd :bd<CR>
 
 " NERDTree plugin
 noremap <Leader>n :NERDTreeToggle<CR>
+<<<<<<< HEAD
+>>>>>>> parent of d873814... Keymap and plugin settings update
+=======
 >>>>>>> parent of d873814... Keymap and plugin settings update
 
 "netrw
@@ -726,7 +735,11 @@ map <Leader>gD :GDelete<CR>
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " Buffers and Tabs
+=======
+" Tabs
+>>>>>>> parent of d873814... Keymap and plugin settings update
 =======
 " Tabs
 >>>>>>> parent of d873814... Keymap and plugin settings update
@@ -809,8 +822,13 @@ vnoremap <C-d> "+d
 "autocmd VimEnter * if isdirectory(expand('<afile>')) | Explore | endif
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 " Automatically change the current directory
 "autocmd BufEnter * silent! lcd %:p:h
+=======
+nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
+vnoremap <silent> <leader> :<c-u>WhichKeyVisual ','<CR>
+>>>>>>> parent of d873814... Keymap and plugin settings update
 =======
 nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
 vnoremap <silent> <leader> :<c-u>WhichKeyVisual ','<CR>
