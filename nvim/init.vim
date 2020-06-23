@@ -57,8 +57,6 @@ Plug 'tpope/vim-repeat'
 Plug 'turbio/bracey.vim'
 Plug 'mattn/emmet-vim'
 Plug 'justinmk/vim-sneak'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
 " { Aesthetics }
 Plug 'itchyny/lightline.vim'
 Plug 'edkolev/tmuxline.vim'
@@ -67,14 +65,17 @@ Plug 'kjwon15/vim-transparent'
 Plug 'ryanoasis/vim-devicons'
 Plug 'https://github.com/godlygeek/tabular'
 <<<<<<< HEAD
+<<<<<<< HEAD
 Plug 'voldikss/vim-floaterm'
 =======
 
 >>>>>>> parent of 63567ef... Updated Keymap and Plugins
+=======
+>>>>>>> parent of 4c29fd1... update
 " { Just in case }
 "Plug 'chriskempson/base16-vim'
 "Plug 'tpope/vim-commentary'
-"Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree'
 "Plug 'terryma/vim-multiple-cursors'
 "Plug 'https://github.com/vim-scripts/Tabmerge'
 "Plug 'https://github.com/sjl/gundo.vim'
@@ -285,8 +286,6 @@ nmap <leader>eS <Plug>(victionary#synonym_under_cursor)
 
 """""vim markdown
 let g:vim_markdown_no_extensions_in_markdown = 1
-let g:vim_markdown_folding_disabled = 1
-let g:vim_markdown_frontmatter = 1
 
 " { Intellisense }
 " Use <c-space> to trigger completion.
@@ -450,7 +449,7 @@ let g:which_key_map.m = {
 	  \ 'gy' : ['coc-type-definition', 'Go to type definition'],
 	  \ 'gi' : ['coc-implementation', 'Go to implementation'],
 	  \ 'gr' : ['coc-references', 'Go to references'],
-	  \ 'mh' : 'show documentation',
+	  \ 'h' : 'show documentation',
 	  \ 'rn' : ['coc-rename', 'rename current word'],
 	  \ 'a' : ['CocList diagnostic', 'coc show all diagnostic'],
 	  \ 'e' : ['CocList extension', 'coc manage extension'],
@@ -496,6 +495,7 @@ let g:which_key_map.f = {
 			\ 'bc' : ['BCommits', 'Search Commits in buffers'],
 			\ 'a' : ['Commands', 'Search Action/Command'],
 			\ 'M' : ['Maps', 'Search for mappings'],
+<<<<<<< HEAD
             \ 'e' : ['Marketplace', 'Search for coc extensions']
 =======
 =======
@@ -522,18 +522,9 @@ let g:which_key_map.f = {
 >>>>>>> parent of d873814... Keymap and plugin settings update
 =======
 >>>>>>> parent of d873814... Keymap and plugin settings update
+=======
+>>>>>>> parent of 4c29fd1... update
 			\}
-
-let g:which_key_map.t = {
-            \ 'name' : '+terminal',
-            \ 'g' : [':FloatermNew lazygit', 'lazygit'],
-            \ 'h' : [':FloatermNew htop', 'htop'],
-            \ 'c' : [':FloatermNew cmus', 'cmus'],
-            \ 'f' : [':FloatermNew fzf', 'fzf $HOME'],
-            \ 't' : [':FloatermNew', 'terminal'],
-            \ 'v' : [':FloatermNew vifm', 'vifm'],
-            \ '<F2>' : [':FloatermToggle', 'FloatermToggle'],
-            \}
 
 " { Make life easier }
 """"" FZF
@@ -565,37 +556,25 @@ nnoremap <leader>fco :Colors<CR>
 nnoremap <leader>fbc :BCommits<CR>
 nnoremap <leader>fa :Commands<CR>
 nnoremap <leader>fM :Maps<CR>
-nnoremap <leader>fe :CocList marketplace<CR>
 """"" vim sneak
 let g:sneak#label = 1
 "Sneak map
 map f <Plug>Sneak_s
 map F <Plug>Sneak_S
-"""" vim-snippets
-let g:UltiSnipsExpandTrigger="<A-tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " { Aesthetics }
 """"" lightline
 let g:lightline = {
   \	'colorscheme': 'onedark',
   \     'active': {
-  \         'left': [['mode', 'paste' ], ['fugitive','readonly'], ['filename', 'modified']],
+  \         'left': [['mode', 'paste' ], ['gitbranch','readonly', 'filename', 'modified']],
   \         'right': [['lineinfo'], ['percent'], ['charvaluehex','fileformat', 'fileencoding']]
   \     },
   \	'component_function': {
-  \     'fugitive': 'LightlineFugitive',
-  \     'readonly': 'LightlineReadonly',
-  \     'modified': 'LightlineModified',
-  \     'fileformat': 'LightlineFileFormat',
-  \     'filetype': 'LightlineFileType'
+  \		'gitbranch': 'fugitive#head',
+  \		'charavaluehex': '0x%B'
   \
   \		},
-  \'component': {
-  \     'lineinfo': ' %3l:%-2v',
-  \     'filename': '%<%f'
-  \     },
   \ }
 
 let g:lightline.separator = {
@@ -617,6 +596,7 @@ let g:lightline.component_type = {
 <<<<<<< HEAD
 let g:lightline#bufferline#enable_devicons = 1
 let g:lightline#bufferline#filename_modifier = ':te'
+<<<<<<< HEAD
 
 """ Floaterm
 let g:floaterm_gitcommit='floaterm'
@@ -670,6 +650,8 @@ endfunction
 =======
 
 >>>>>>> parent of 63567ef... Updated Keymap and Plugins
+=======
+>>>>>>> parent of 4c29fd1... update
 """"""""""""""""""""""""""""""""""""""""""""""
 " System Mapping
 """"""""""""""""""""""""""""""""""""""""""""""
@@ -693,9 +675,10 @@ noremap <C-l> <C-w>l
 " resize splits with arrow keys
 noremap <C-A-Left>	:vertical:resize -1<CR>
 noremap <C-A-Down>	:resize +1<CR>
-noremap <C-A-Up>	:resize -1<CR>
+noremap <C-A-Up>		:resize -1<CR>
 noremap <C-A-Right>	:vertical:resize +1<CR>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 " Close buffer
 nnoremap <Leader>bd :bd<CR>
@@ -707,14 +690,16 @@ noremap <Leader>n :NERDTreeToggle<CR>
 >>>>>>> parent of d873814... Keymap and plugin settings update
 =======
 >>>>>>> parent of d873814... Keymap and plugin settings update
+=======
+
+>>>>>>> parent of 4c29fd1... update
 
 "netrw
 "noremap <Leader>n :Vexplore<CR>
 
 
 " reload vimrc
-nnoremap <Leader>re :e ~/.config/nvim/init.vim<CR>
-nnoremap <Leader>rr :so $MYVIMRC
+"nnoremap <Leader>rr :source ~/.vimrc<CR>
 
 " hide search results
 map <Esc><Esc> :nohlsearch<CR>
@@ -746,12 +731,16 @@ map <Leader>gD :GDelete<CR>
 nnoremap <C-left> :bprevious<CR>
 nnoremap <C-right> :bnext<CR>
 nnoremap <C-S-left> :tabprevious<CR>
+<<<<<<< HEAD
 nnoremap <C-S-right> :tabnext<CR>
 =======
 " Tabs
 nnoremap <C-left> :tabprevious<CR>
 nnoremap <C-right> :tabnext<CR>
 >>>>>>> parent of 63567ef... Updated Keymap and Plugins
+=======
+nnoremap <C-S-right> :tabbnext<CR>
+>>>>>>> parent of 4c29fd1... update
 nnoremap <silent> <A-left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 "nnoremap <C-m> :Tabmerge right<CR>
@@ -782,32 +771,30 @@ command! -nargs=* RunSilent
 "nmap <Leader>pp :RunSilent pandoc -o /tmp/vim-pandoc-out.pdf "%"<CR>
 "nmap <Leader>pe :RunSilent evince /tmp/vim-pandoc-out.pdf<CR>
 
-"augroup extension
-	"au!
-	"" force indentation
-	"autocmd BufRead,BufNewFile *.py setlocal sw=4 ts=4 sts=4 expandtab
-	"autocmd BufRead,BufNewFile *.html,*.css,*.js,*.jsx setlocal sw=2 ts=2 sts=2 expandtab
-	"autocmd BufRead,BufNewFile *.md setlocal sw=2 ts=2 sts=2 expandtab
-	"" force javascriptreact to javascript
-	"autocmd BufRead,BufNewFile *.jsx,*js setlocal filetype=javascript
-"augroup end
+augroup extension
+	au!
+	" force indentation
+	autocmd BufRead,BufNewFile *.py setlocal sw=4 ts=4 sts=4 expandtab
+	autocmd BufRead,BufNewFile *.html,*.css,*.js,*.jsx setlocal sw=2 ts=2 sts=2 expandtab
+	autocmd BufRead,BufNewFile *.md setlocal sw=2 ts=2 sts=2 expandtab
+	" force javascriptreact to javascript
+	autocmd BufRead,BufNewFile *.jsx,*js setlocal filetype=javascript
+augroup end
 
 augroup postWrite
 	au!
 	" auto reload vimrc
-	autocmd BufWritePost init.vim so $MYVIMRC 
+	autocmd BufWritePost .vimrc source ~/.vimrc
 	" groff pdf
 	autocmd BufWritePost *.me !groff -Tps -me '%' > '%:r.pdf'
 	" xrdb autoload .Xresources
 	autocmd BufWritePost .Xresources silent !xrdb ~/.Xresources
 augroup end
 
-"aug i3config_ft_detection
-  "au!
-  "au BufNewFile,BufRead ~/.config/i3/config set ft=i3config
-"aug end
-
-
+aug i3config_ft_detection
+  au!
+  au BufNewFile,BufRead ~/.config/i3/config set ft=i3config
+aug end
 
 inoremap <C-v> <ESC>"*p
 vnoremap <C-c> "+y
@@ -824,6 +811,7 @@ vnoremap <C-d> "+d
 <<<<<<< HEAD
 <<<<<<< HEAD
 " Automatically change the current directory
+<<<<<<< HEAD
 "autocmd BufEnter * silent! lcd %:p:h
 =======
 nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
@@ -833,3 +821,6 @@ vnoremap <silent> <leader> :<c-u>WhichKeyVisual ','<CR>
 nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
 vnoremap <silent> <leader> :<c-u>WhichKeyVisual ','<CR>
 >>>>>>> parent of d873814... Keymap and plugin settings update
+=======
+autocmd BufEnter * silent! lcd %:p:h
+>>>>>>> parent of 4c29fd1... update
