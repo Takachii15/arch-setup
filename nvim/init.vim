@@ -47,7 +47,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " { Documentation }
 Plug 'vimwiki/vimwiki'
 Plug 'liuchengxu/vim-which-key'
-Plug 'kkoomen/vim-doge'
 " { Make life easier}
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
@@ -176,7 +175,7 @@ map <leader>vt :TabVifm<CR>
 
 """"" Startify
 " Copyright
-let g:ascii = [
+let g:startify_custom_header = startify#center([
 			\'_______  _        _______  ______  __________________',
 			\'(       )| \    /\(  ___  )(  __  \ \__   __/\__   __/',
 			\'| () () ||  \  / /| (   ) || (  \  )   ) (      ) (   ',
@@ -185,21 +184,15 @@ let g:ascii = [
 			\'| |   | ||  ( \ \ | (   ) || |   ) |   | |      | |   ',
 			\'| )   ( ||  /  \ \| )   ( || (__/  )___) (___   | |   ',
 			\'|/     \||_/    \/|/     \|(______/ \_______/   )_(   ',
-			\'
-            \'] 
-
-let g:startify_custom_header = 
-            \'startify#center(g:ascii +startify#fortune#quote())'
+			\])
 
 "vim startify sessions
 let g:startify_session_dir = '~/.config/nvim/session'
 let g:startify_session_delete_buffers = 1
-let g:startify_change_to_vcs_root = 1
+"let g:startify_change_to_vcs_root = 1
 let g:startify_session_persistence = 1
 let g:startify_enable_special = 0
 "let g:startify_session_sort = 1
-let g:startify_change_to_dir = 1
-
 
 "Map keys
 nmap <leader>ee :SClose<CR>
@@ -251,16 +244,9 @@ nnoremap <leader>eg :Magit<CR>
 "Open Undo tree
 nnoremap <leader>eu :UndotreeToggle<CR>
 
-
-""" NERDTree plugin
-"noremap <Leader>n :NERDTreeToggle<CR>
 " NERDTree ignore
 "let NERDTreeIgnore = ['\.pyc$', '\.class']
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-
-""" coc-explorer
-nmap <leader>n :CocCommand explorer<CR>
-autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
 " { Syntax and highlighting }
 
@@ -422,19 +408,11 @@ let g:vimwiki_ext2syntax = {'.Rmd': 'markdown', '.rmd': 'markdown','.md': 'markd
 "map <leader>v :VimwikiIndex
 let g:vimwiki_list = [{'path': '~/vimwiki', 'syntax': 'markdown', 'ext': '.md'}]
 
-""" vim-doge
-let g:doge_mapping = '<Leader>ea'
-
 """"" vim-which-key
-nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
-vnoremap <silent> <leader> :<c-u>WhichKeyVisual ','<CR>
 call which_key#register(',', "g:which_key_map")
 set timeoutlen=300
 " Define prefix dictionary
 let g:which_key_map =  {}
-let g:which_key_map.n ={
-            \ 'name' : 'Explorer'
-            \}
 let g:which_key_map.v = {
       \ 'name' : '+Vifm' ,
       \ 'i' : ['Vifm', 'Open file via vifm'],
@@ -494,12 +472,11 @@ let g:which_key_map.e = {
 			\ 's' : 'Search prompt synonym',
 			\ 'S' : 'Search current synonym',
 			\ 'e' : "Exit Session",
-            \ 'a' : ['DogeGenerate', 'Generate documentation'],
-            \ 'f' : 'Open configs'
 			\}
 
 let g:which_key_map.f = {
 			\ 'name' : '+FZF',
+<<<<<<< HEAD
 			\ 'i' : ['Files', 'Search for files'],
 			\ 'bl' : ['Buffer', 'Search for buffer'],
 			\ 'gl' : ['GFiles', 'Git list'],
@@ -519,6 +496,26 @@ let g:which_key_map.f = {
 			\ 'a' : ['Commands', 'Search Action/Command'],
 			\ 'M' : ['Maps', 'Search for mappings'],
             \ 'e' : ['Marketplace', 'Search for coc extensions']
+=======
+			\ 'fi' : ['Files', 'Search for files'],
+			\ 'fbl' : ['Buffer', 'Search for buffer'],
+			\ 'fgl' : ['GFiles', 'Git list'],
+			\ 'fgs' : ['GFiles?', 'Git status'],
+			\ 'frg' : ['Rg', 'Search for content'],
+			\ 'flb' : ['Lines', 'Search for line in current file'],
+			\ 'fcb' : ['Fcb', 'Search for line in buffers'],
+			\ 'fm' : ['Marks', 'Search for marks'],
+			\ 'fw' : ['Windows', 'Search for windows/tabs'],
+			\ 'fhf' : ['History', 'Search file history'],
+			\ 'fch' : ['History:', 'Search command history'],
+			\ 'fsh' : ['History/', 'Search history'],
+			\ 'fsn' : ['Snippets', 'Search for Snippets'],
+			\ 'fco' : ['Commits', 'Search Colourscheme'],
+			\ 'fcc' : ['Commits', 'Search Commits in file'],
+			\ 'fbc' : ['BCommits', 'Search Commits in buffers'],
+			\ 'fa' : ['Commands', 'Search Action/Command'],
+			\ 'fM' : ['Maps', 'Search for mappings'],
+>>>>>>> parent of d873814... Keymap and plugin settings update
 			\}
 
 let g:which_key_map.t = {
@@ -554,9 +551,9 @@ nnoremap <leader>fcb :BLines<CR>
 nnoremap <leader>fm :Marks<CR>
 nnoremap <leader>fw :Windows<CR>
 nnoremap <leader>fhf :History<CR>
-nnoremap <leader>fhc :History:<CR>
-nnoremap <leader>fhs :History/<CR>
-nnoremap <leader>fs :Snippets<CR>
+nnoremap <leader>fch :History:<CR>
+nnoremap <leader>fsh :History/<CR>
+nnoremap <leader>fsn :Snippets<CR>
 nnoremap <leader>fcc :Commits<CR>
 nnoremap <leader>fco :Colors<CR>
 nnoremap <leader>fbc :BCommits<CR>
@@ -693,8 +690,14 @@ noremap <C-A-Down>	:resize +1<CR>
 noremap <C-A-Up>	:resize -1<CR>
 noremap <C-A-Right>	:vertical:resize +1<CR>
 
+<<<<<<< HEAD
 " Close buffer
 nnoremap <Leader>bd :bd<CR>
+=======
+
+" NERDTree plugin
+noremap <Leader>n :NERDTreeToggle<CR>
+>>>>>>> parent of d873814... Keymap and plugin settings update
 
 "netrw
 "noremap <Leader>n :Vexplore<CR>
@@ -722,7 +725,11 @@ map <Leader>gD :GDelete<CR>
 "map <Leader>gt :YcmCompleter GoTo<CR>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 " Buffers and Tabs
+=======
+" Tabs
+>>>>>>> parent of d873814... Keymap and plugin settings update
 nnoremap <C-left> :bprevious<CR>
 nnoremap <C-right> :bnext<CR>
 nnoremap <C-S-left> :tabprevious<CR>
@@ -742,9 +749,6 @@ map <leader>ec :w! \| !compiler <c-r>%<CR>
 
 " Open corresponding .pdf/.html or preview
 map <leader>ep :!opout <c-r>%<CR><CRj
-
-" Open configs
-map <leader>ef :SLoad configs<CR>
 
 " Open bibliography file in split
 "map <leader>eb :vsp<space>$BIB<CR>
@@ -804,5 +808,10 @@ vnoremap <C-d> "+d
 "autocmd VimEnter * if !argc() | Explore | endif
 "autocmd VimEnter * if isdirectory(expand('<afile>')) | Explore | endif
 
+<<<<<<< HEAD
 " Automatically change the current directory
 "autocmd BufEnter * silent! lcd %:p:h
+=======
+nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
+vnoremap <silent> <leader> :<c-u>WhichKeyVisual ','<CR>
+>>>>>>> parent of d873814... Keymap and plugin settings update
