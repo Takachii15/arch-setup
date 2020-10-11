@@ -43,7 +43,7 @@ Plug 'https://github.com/plasticboy/vim-markdown'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'ycm-core/YouCompleteMe'
 " { Documentation / Task management }
-Plug 'vimwiki/vimwiki'
+"Plug 'vimwiki/vimwiki'
 Plug 'liuchengxu/vim-which-key'
 Plug 'kkoomen/vim-doge'
 Plug 'https://github.com/itchyny/calendar.vim'
@@ -60,6 +60,8 @@ Plug 'justinmk/vim-sneak'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'https://github.com/ap/vim-css-color'
+"Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 " { Aesthetics }
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
@@ -71,8 +73,9 @@ Plug 'https://github.com/godlygeek/tabular'
 Plug 'voldikss/vim-floaterm'
 " { Themes enhanced }
 Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'sainnhe/edge'
 Plug 'sainnhe/gruvbox-material'
-Plug 'https://github.com/lifepillar/vim-gruvbox8'
+"Plug 'https://github.com/lifepillar/vim-gruvbox8'
 " { Just in case }
 "Plug 'chriskempson/base16-vim'
 "Plug 'tpope/vim-commentary'
@@ -92,10 +95,31 @@ call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""
 syntax enable
 filetype plugin indent on
-colorscheme gruvbox8_soft
+if has('termguicolors')
+  set termguicolors
+endif
+"set background=dark
+
+""" For Gruvbox-material (only works if put above colorscheme)
+"let g:gruvbox_material_background = 'soft'
+"let g:gruvbox_material_enable_italic = 1
+"let g:gruvbox_material_enable_bold = 1
+"let g:gruvbox_material_transparent_background = 1
+"let g:gruvbox_material_diagnostic_line_highlight = 1
+"let g:gruvbox_material_better_performance = 1
+"""
+""" For edge (only works if put above colorscheme)
+let g:edge_style = 'aura'
+let g:edge_enable_italic = 1
+let g:edge_disable_italic_comment = 1
+let g:edge_transparent_background = 1
+let g:edge_diagnostic_line_highlight = 1
+let g:edge_better_performance = 1
+"""
+
 "hi normal guibg=NONE ctermbg=NONE
+colorscheme edge
 set nocompatible
-"set termguicolors
 set t_ut=
 set ttyfast
 set lazyredraw
@@ -307,6 +331,10 @@ nmap <leader>eS <Plug>(victionary#synonym_under_cursor)
 let g:vim_markdown_no_extensions_in_markdown = 1
 let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_frontmatter = 1
+let g:tex_conceal = ""
+let g:vim_markdown_math = 1
+let g:vim_markdown_new_list_item_indent = 0
+
 
 " { Intellisense }
 " Use <c-space> to trigger completion.
@@ -428,7 +456,7 @@ endfunction
 " Ensure files are read as what I want:
 let g:vimwiki_ext2syntax = {'.Rmd': 'markdown', '.rmd': 'markdown','.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 "map <leader>v :VimwikiIndex
-let g:vimwiki_list = [{'path': '~/vimwiki', 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path': '~/Documents/vimwiki', 'syntax': 'markdown', 'ext': '.md'}]
 
 """ vim-doge
 let g:doge_mapping = '<Leader>ea'
@@ -580,10 +608,26 @@ let g:UltiSnipsExpandTrigger="<A-tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+"Vim-markdown preview
+let g:mkdp_preview_options = {
+    \ 'mkit': {},
+    \ 'katex': {},
+    \ 'uml': {},
+    \ 'maid': {},
+    \ 'disable_sync_scroll': 0,
+    \ 'sync_scroll_type': 'middle',
+    \ 'hide_yaml_meta': 1,
+    \ 'sequence_diagrams': {},
+    \ 'flowchart_diagrams': {},
+    \ 'content_editable': v:false
+    \ }
+let g:mkdp_browser = 'google-chrome-stable'
+
+
 " { Aesthetics }
 """"" lightline
 let g:lightline = {
-  \	'colorscheme': 'gruvbox_material',
+  \	'colorscheme': 'edge',
   \     'active': {
   \         'left': [['mode', 'paste' ], ['fugitive','readonly'], ['filename', 'modified']],
   \         'right': [['lineinfo'], ['percent'], ['charvaluehex','fileformat', 'fileencoding']]
@@ -745,6 +789,8 @@ map <Leader>gD :GDelete<CR>
 " Buffers and Tabs
 nnoremap <C-left> :bprevious<CR>
 nnoremap <C-right> :bnext<CR>
+nnoremap <C-n> :bprevious<CR>
+nnoremap <C-m> :bnext<CR>
 nnoremap <C-S-left> :tabprevious<CR>
 nnoremap <C-S-right> :tabnext<CR>
 nnoremap <silent> <A-left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
@@ -812,10 +858,10 @@ vnoremap <C-c> "+y
 vnoremap <C-d> "+d
 
 "" Compile document
-"map <leader>c :w! \| !compiler <c-r>%<CR>
+map <leader>pc :w! \| !compiler <c-r>%<CR>
 
 " Open corresponding .pdf/.html or preview
-"map <leader>p :!opout <c-r>%<CR><CR>
+map <leader>pp :!opout <c-r>%<CR><CR>
 "autocmd VimEnter * if !argc() | Explore | endif
 "autocmd VimEnter * if isdirectory(expand('<afile>')) | Explore | endif
 

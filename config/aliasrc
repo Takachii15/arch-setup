@@ -26,7 +26,13 @@ alias \ cp="cp -iv" \
 	mkd="mkdir -pv" \
 	yt="youtube-dl --add-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
-	ffmpeg="ffmpeg -hide_banner"
+	ffmpeg="ffmpeg -hide_banner" \
+    br="br -FsT"\
+    tmn="tmux new -s"\
+    tma="tmux a -t"\
+    tmka="tmux kill-session -a"\
+    tmkt="tmux kill-session -t"\
+    tmmw="tmux move-window -t"
 
 # Colorize commands when possible.
 alias \
@@ -58,14 +64,15 @@ alias \
 	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
 	tmux="tmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/tmux.conf" \
     ytdlm="youtube-dl -f bestaudio --extract-audio --audio-format mp3 -o '~/Music/%(title)s.%(ext)s'" \
-	ytdlv="youtube-dl -f 137+140" \
+    ytdlv="youtube-dl -f bestvideo -o '%(title)s.%(ext)s'" \
     pdcd="podcast-dl-linux-x64" \
 	scim="sc-im" \
 	jvcfx="javac --module-path $PATH_TO_FX --add-modules ALL-MODULE-PATH"\
 	jvrfx="java --module-path $PATH_TO_FX --add-modules ALL-MODULE-PATH"\
-	dcpdf="lowriter --convert-to .pdf"\
+	tpdf="libreoffice --headless --invisible --convert-to pdf"\
     pas='pacman -Slq | fzf -m --preview ${QPAS} | xargs -ro sudo pacman -S'\
     yas='yay -Slq | fzf -m --preview ${QYAS} | xargs -ro  yay -S'\
     par='pacman -Qqe | fzf -m --preview ${QPAR} | xargs -ro sudo pacman -Rns'\
     yar='yay -Qqe | fzf -m --preview ${QYAR} | xargs -ro  yay -Rns'\
-    rct='rclone copy --update --verbose --transfers 30 --checkers 8 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10 --stats 1s'
+    rct='rclone copy --update --verbose --transfers 30 --checkers 8 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10 --stats 1s' \
+   vbg='xwinwrap -ov -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid WID --loop --no-audio'

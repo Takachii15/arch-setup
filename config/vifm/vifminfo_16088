@@ -61,697 +61,694 @@
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
 m-1
 l2
-r11,2
+r2
 
 # Left window history (oldest to newest):
-d/home/mkaditya
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW/story/Story 1
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW/story/story-1-mkadit/story_1
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW/story/story-1-mkadit
-	..
-0
-d/home/mkaditya
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW/story/story
-	..
-0
-d/home/mkaditya
-	..
-0
-d/home/mkaditya/College
-	17an
-1
-d/home/mkaditya/College/17an
-	Website
-5
-d/home/mkaditya/College/17an/Website
-	css
-1
-d/home/mkaditya/College/17an/Website/css
-	bootstrap.min.css
-2
-d/home/mkaditya/College/17an/Website
-	css
-1
-d/home/mkaditya/College/17an/Website/css
-	bootstrap.min.css
-2
-d/home/mkaditya/College/17an/Website
-	css
-1
-d/home/mkaditya/College/17an/Website/css
-	style.css
-3
-d/home/mkaditya
-	College
-1
-d/home/mkaditya/College
-	17an
-1
-d/home/mkaditya/College/17an
-	Website
-5
-d/home/mkaditya/College/17an/Website
-	index.html
-6
-d/home/mkaditya/Downloads
-	output_001.jpg
-28
-d/home/mkaditya
-	temp
-15
-d/home/mkaditya/temp
-	something
-11
-d/home/mkaditya/temp/something
-	freelancer-builder
-1
-d/home/mkaditya/temp/something/freelancer-builder
-	freelancer
-1
-d/home/mkaditya/temp/something/freelancer-builder/freelancer
-	css
-2
-d/home/mkaditya/temp/something/freelancer-builder/freelancer/css
-	styles.css
-3
-d/home/mkaditya/temp/something/freelancer-builder/freelancer
-	js
-3
-d/home/mkaditya/temp/something/freelancer-builder/freelancer/js
-	..
-0
-d/home/mkaditya/temp/something/freelancer-builder/freelancer
-	js
-3
-d/home/mkaditya/temp/something/freelancer-builder/freelancer/js
-	scripts.js
-1
-d/home/mkaditya/temp/something/freelancer-builder/freelancer
-	css
-2
-d/home/mkaditya/temp/something/freelancer-builder/freelancer/css
-	heading.css
-2
-d/home/mkaditya/temp/something/freelancer-builder/freelancer
-	assets
-1
-d/home/mkaditya/temp/something/freelancer-builder/freelancer/assets
-	..
-0
-d/home/mkaditya/temp/something/freelancer-builder/freelancer
-	css
-2
-d/home/mkaditya/temp/something/freelancer-builder/freelancer/css
-	styles.css
-3
-d/home/mkaditya
-	temp
-15
-d/home/mkaditya/Downloads
-	dnvim2-code.zip
-27
-d/home/mkaditya
-	temp
-15
-d/home/mkaditya/College
-	Semester 3
-6
-d/home/mkaditya/College/Semester 3
-	PPW
-4
-d/home/mkaditya/College/Semester 3/PPW
-	story
-2
-d/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-d/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-1
-d/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-3
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	img
-3
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static/img
-	tomb.png
-4
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	img
-3
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static/img
-	face.jpg
-1
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	home
-2
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static/home
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	css
-1
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static/css
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	css
-1
-d/home/mkaditya/College/Semester 3/PPW/story/story/home
-	admin.py
-6
-d/home/mkaditya/College/Semester 3/PPW/story/story
-	requirements.txt
-6
-d/home/mkaditya
-	.pylint.d
-24
-d/home/mkaditya/.pylint.d
-	a1.stats
-1
-d/home/mkaditya
-	.swt
-25
-d/home/mkaditya/.swt
-	..
-0
-d/home/mkaditya
-	.tooling
-28
-d/home/mkaditya/.tooling
-	gradle
-1
-d/home/mkaditya/.tooling/gradle
-	..
-0
-d/home/mkaditya/.tooling
-	gradle
-1
-d/home/mkaditya
-	.vim
-29
-d/home/mkaditya/.vim
-	sessions
-1
-d/home/mkaditya/.vim/sessions
-	default.vim
-1
-d/home/mkaditya/.vim
-	sessions
-1
-d/home/mkaditya
-	node_modules
-44
-d/home/mkaditya/node_modules
-	..
-0
-d/home/mkaditya
-	node_modules
-44
-d/home/mkaditya/node_modules
-	nyc
-52
-d/home/mkaditya
-	.IntelliJIdea2019.3
-2
-d/home/mkaditya/.IntelliJIdea2019.3
-	system
-2
-d/home/mkaditya
-	.config
-8
 d/home/mkaditya/.config
-	broot
-15
-d/home/mkaditya/.config/broot
-	conf.toml
-2
-d/home/mkaditya
 	..
 0
+d/home/mkaditya/Music/audiobook
+	..
+0
+d/home/mkaditya/College
+	..
+0
+d/home/mkaditya/.config
+	..
+0
+d/home/mkaditya/Music/audiobook
+	..
+0
+d/home/mkaditya/Music/podcast
+	..
+0
+d/home/mkaditya/Music
+	podcast
+4
+d/home/mkaditya/Music/podcast
+	..
+0
+d/home/mkaditya
+	.local
+17
+d/home/mkaditya/.local
+	bin
+1
+d/home/mkaditya/.local/bin
+	..
+0
+d/home/mkaditya/.local
+	lib
+2
+d/home/mkaditya/.local/lib
+	..
+0
+d/home/mkaditya/.local
+	share
+3
+d/home/mkaditya/.local/share
+	qutebrowser
+22
+d/home/mkaditya/.local
+	src
+4
+d/home/mkaditya/.local/src
+	..
+0
+d/home/mkaditya/.local
+	src
+4
+d/home/mkaditya/.local/src
+	dmenu
+1
+d/home/mkaditya/.local
+	..
+0
+d/home/mkaditya/College
+	..
+0
+d/home/mkaditya/.local
+	..
+0
+d/home/mkaditya
+	Desktop
+2
+d/home/mkaditya/R
+	x86_64-pc-linux-gnu-library
+1
+d/home/mkaditya
+	Unity
+8
 d/home
 	mkaditya
 2
-d/
-	lib64
-6
 d/home/mkaditya
-	VirtualBox VMs
-10
-d/home/mkaditya/College/Semester 3/SDA/Lab/Lab 01
+	node_modules
+14
+d/home/mkaditya/node_modules
 	..
 0
-d/home/mkaditya/College/Semester 3/SDA/Lab
-	Lab 00
-1
-d/home/mkaditya/College/Semester 3/SDA/Lab/Lab 00
-	..
-0
-d/home/mkaditya/College/Semester 3/SDA/Lab
-	Lab 00
-1
-d/home/mkaditya/Downloads
-	dnvim2-code.zip
-20
-d/home/mkaditya
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW
-	
-0
-d/home/mkaditya
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW
-	..
-0
-d/home/mkaditya
-	Desktop
-2
-d/home/mkaditya/College
-	Semester 3
-6
-d/home/mkaditya/College/Semester 3
-	PPW
-4
-d/home/mkaditya/College/Semester 3/PPW
-	story
-2
-d/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-d/home/mkaditya/College/Semester 3/PPW/story/story
-	requirements.txt
-7
-d/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-d/home/mkaditya/College/Semester 3/PPW
-	index.html
-12
-d/home/mkaditya/.config/tmux
-	..
-0
-d/home/mkaditya/College/Semester 3/PPW/story/story
-	requirements.txt
-7
-d/home/mkaditya/College/Semester 3/PPW/story/story/home2/templates
-	index.html
-2
-d/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-d/home/mkaditya
-	Desktop
-2
-d/home/mkaditya/College/Semester 3/PPW/story/story
-	requirements.txt
-7
-d/home/mkaditya
-	Desktop
-2
-d/home/mkaditya/College
-	Semester 3
-6
-d/home/mkaditya/.config
-	qutebrowser
-52
-d/home/mkaditya/.config/qutebrowser
-	config.py
-6
-d/home/mkaditya
-	temp
-15
-d/home/mkaditya/temp
-	thinkstats2.pdf
-25
 d/home/mkaditya
 	Documents
 3
 d/home/mkaditya/Documents
-	a.html
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	5E_CharacterSheet_Fillable.pdf
+1
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Downloads
+	andr-9.0-r2-VB-64bit
+1
+d/home/mkaditya/Documents
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	Dungeons and Dragons Player Handbook.pdf
+2
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Documents
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	Dungeons and Dragons Player Handbook.pdf
+2
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Documents
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	Dungeons and Dragons Player Handbook.pdf
+2
+d/home/mkaditya
+	Downloads
+4
+d/home/mkaditya/Downloads
+	andr-9.0-r2-VB-64bit
+1
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Documents
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	groff.pdf
 4
 d/home/mkaditya
-	temp
-15
+	Documents
+3
+d/home/mkaditya/Documents
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	Dungeons and Dragons Player Handbook.pdf
+2
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Documents
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	Halliday_Resnick_Walker_-_Fundamentals_o.pdf
+3
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Documents
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	5E_CharacterSheet_Fillable.pdf
+1
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Documents
+	pdf
+3
+d/home/mkaditya/Documents/pdf
+	Dungeons and Dragons Player Handbook.pdf
+2
+d/home/mkaditya/Documents
+	a.pdf
+5
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Documents
+	a.md
+4
+d/home/mkaditya
+	Documents
+3
+d/home/mkaditya/Music/podcast
+	Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+4
+d/home/mkaditya/Music
+	audiobook
+3
+d/home/mkaditya/Music/audiobook
+	Artemis Fowl
+2
+d/home/mkaditya/Music/audiobook/Artemis Fowl
+	01 - Artemis Fowl
+2
+d/home/mkaditya/Music/audiobook/Artemis Fowl/01 - Artemis Fowl
+	Artemis Fowl 01 - Artemis Fowl.mp3
+3
+d/home/mkaditya
+	Downloads
+4
+d/home/mkaditya/Videos
+	screencast
+1
+d/home/mkaditya/Videos/screencast
+	..
+0
+d/home/mkaditya/Videos
+	The Phantom of The Opera - FULL STAGE SHOW _ The Shows Must Go On - Stay Home #WithMe-nINQjT7Zr9w.mp4
+5
+d/home/mkaditya/Documents/notion
+	Daily Drive Setup 33ab333ad41747f3878038c8a9b86c1f.md
+2
+d/home/mkaditya
+	Downloads
+4
+d/home/mkaditya/Downloads
+	andr-9.0-r2-VB-64bit
+1
+d/home/mkaditya/Documents
+	notion
+2
+d/home/mkaditya/Documents/notion
+	Export-68bf48e3-c416-4891-81c5-1736e56f5124
+1
+d/home/mkaditya/Documents/notion/Export-68bf48e3-c416-4891-81c5-1736e56f5124
+	..
+0
+d/home/mkaditya/Documents/notion
+	Export-4874b578-cbe8-47b6-baa6-688c0880bf44
+2
+d/home/mkaditya/Documents
+	notion
+2
+d/home/mkaditya/Documents/notion
+	Export-4874b578-cbe8-47b6-baa6-688c0880bf44
+2
+d/home/mkaditya/Documents/notion/Export-4874b578-cbe8-47b6-baa6-688c0880bf44
+	..
+0
+d/home/mkaditya/Documents/notion
+	Export-9316d64a-b93b-4977-83c1-f06e37cbaca4
+3
+d/home/mkaditya/Documents/notion/Export-9316d64a-b93b-4977-83c1-f06e37cbaca4
+	..
+0
+d/home/mkaditya/Documents/notion
+	Export-68bf48e3-c416-4891-81c5-1736e56f5124
+1
+d/home/mkaditya/Documents/notion/Export-68bf48e3-c416-4891-81c5-1736e56f5124
+	..
+0
+d/home/mkaditya/Documents/notion
+	Export-4874b578-cbe8-47b6-baa6-688c0880bf44.zip
+2
+d/home/mkaditya/Documents
+	notion
+2
+d/home/mkaditya/Documents/notion
+	Game Online 03dfaf9420a647adbdf77694cf49f506.md
+2
+d/home/mkaditya/Documents
+	notion
+2
+d/home/mkaditya/Documents/notion
+	17an
+1
+d/home/mkaditya/Documents/notion/17an
+	Acara
+1
+d/home/mkaditya/Documents/notion
+	17an
+1
+d/home/mkaditya/Documents/notion/17an
+	Detail\ Acara
+1
+d/home/mkaditya/Documents/notion
+	17an
+1
+d/home/mkaditya/Documents/notion/17an
+	Detail\ Acara
+1
+d/home/mkaditya/Documents/notion/17an/Detail\ Acara
+	Lomba Pidato 785dae47982c49c3b83246ad4a8d63b2.md
+1
+d/home/mkaditya/Documents/notion/17an
+	Detail\ Acara
+1
+d/home/mkaditya/Documents/notion
+	17an
+1
+d/home/mkaditya/Documents/notion/17an
+	Detail\ Acara
+1
+d/home/mkaditya/Documents/notion/17an/Detail\ Acara
+	Lomba Puisi 003692d602724754b65ca1ccc53912fc.md
+3
+d/home/mkaditya/Documents/notion/17an
+	Detail\ Acara
+1
+d/home/mkaditya/Documents/notion
+	Daily Drive Setup 33ab333ad41747f3878038c8a9b86c1f.md
+1
+d/home/mkaditya/College/17an/Detail\ Acara
+	..
+0
+d/home/mkaditya/College/17an
+	..
+0
+d/home/mkaditya
+	Downloads
+4
+d/home/mkaditya/College/17an/Detail Acara
+	..
+0
+d/home/mkaditya
+	..
+0
 
 # Right window history (oldest to newest):
-D/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	story
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/story
-	asgi.py
-3
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-4
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	css
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static/css
-	..
-0
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	css
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-4
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-2
-D/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW
-	bootstrap.css
-3
 D/home/mkaditya
-	bin
+	Music
+5
+D/home/mkaditya/Music
+	podcast
+4
+D/home/mkaditya/Music/podcast
+	Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+4
+D/home/mkaditya/Music/podcast/Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+	20131106-Credit vs. Debit vs. Cash_ The Ultimate Showdown.mp3
 3
+D/home/mkaditya/Music/podcast
+	Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+4
+D/home/mkaditya/Music
+	podcast
+4
+D/home/mkaditya
+	Music
+5
 D/home
 	mkaditya
 2
 D/home/mkaditya
-	bin
-3
-D/home
-	mkaditya
-2
-D/
-	home
-4
-D/home
-	mkaditya
-2
-D/home/mkaditya
-	css.png
-21
-D/home/mkaditya/College
-	Semester 3
-8
-D/home/mkaditya/College/Semester 3
-	PPW
+	Music
 5
-D/home/mkaditya/College/Semester 3/PPW
-	html.png
-6
-D/home/mkaditya
-	css.png
-21
-D/home/mkaditya/College
-	Semester 3
-8
-D/home/mkaditya/College/Semester 3
-	PPW
-5
-D/home/mkaditya/College/Semester 3/PPW
-	game.html
-12
-D/home/mkaditya
-	VirtualBox VMs
-7
-D/home/mkaditya/College
-	Semester 3
-8
-D/home/mkaditya/College/Semester 3
-	PPW
-5
-D/home/mkaditya/College/Semester 3/PPW
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW
-	resource
-1
-D/home/mkaditya/College/Semester 3/PPW/resource
-	..
-0
-D/home/mkaditya/College/Semester 3/PPW
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-4
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-4
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	css
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	migrations
-3
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/migrations
-	..
-0
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-4
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	img
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static/img
-	face.jpg
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	img
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-4
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-2
-D/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW
-	face.jpg
-6
-D/home/mkaditya
-	VirtualBox VMs
-7
-D/home/mkaditya/College
-	Semester 3
-8
-D/home/mkaditya/College/Semester 3
-	PPW
-5
-D/home/mkaditya/College/Semester 3/PPW
-	face.jpg
-6
-D/home/mkaditya
-	College
-10
-D/home/mkaditya/College
-	Semester 3
-8
-D/home/mkaditya/College/Semester 3
-	PPW
-5
-D/home/mkaditya/College/Semester 3/PPW
-	game.html
+D/home/mkaditya/Music
+	28. Darkness of the Unknown (Project Destati - DARKNESS)-Oa0yMbqtyRQ.mp3
 14
 D/home/mkaditya
-	College
-10
-D/home/mkaditya/College
-	Semester 3
-8
-D/home/mkaditya/College/Semester 3
-	PPW
-5
-D/home/mkaditya/College/Semester 3/PPW
-	bootstrap.min.css
+	Phone
+6
+D/home/mkaditya/Phone
+	GalaxyA50s
+2
+D/home/mkaditya
+	Downloads
 4
+D/home/mkaditya/Downloads
+	TheCompleteSherlockHolmesAll4NovelsAnd56ShortStories.zip
+2
 D/home/mkaditya
 	College
-10
+1
 D/home/mkaditya/College
-	Semester 3
-8
+	mkadit-journal
+7
 D/home/mkaditya
-	College
-10
-D/home/mkaditya/College
-	Semester 3
-8
-D/home/mkaditya/College/Semester 3
-	PPW
-5
-D/home/mkaditya/College/Semester 3/PPW
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home2
-3
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2
-	static
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2/static
-	img
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2/static/img
-	face.jpg
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2/static
-	css
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2/static/css
-	bootstrap.min.css
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2/static
-	css
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2
-	templates
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2/templates
-	game.html
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2
-	templates
-3
-D/home/mkaditya/.config/tmux
-	tmuxline
+	podcast-cli-1.2.0-linux-amd64
+19
+D/home/mkaditya/Music/podcast
+	Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
 4
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home2
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2
-	templates
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-4
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	img
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	templates
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/templates
-	home
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/templates/home
-	index.html
-1
-D/home/mkaditya/College/Semester 3/PPW/story
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home2
-3
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2
-	static
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2/static
-	css
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/home2
-	static
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	story
-2
-D/home/mkaditya/College/Semester 3/PPW/story/story/story
-	asgi.py
-3
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	static
-4
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	css
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static/css
+D/home/mkaditya/Music/podcast/Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+	20131125-The Underwater Mortgage Escape Plan.mp3
+6
+D/home/mkaditya
+	podcast-cli-1.2.0-linux-amd64
+18
+D/home/mkaditya/.config
+	oh-my-zsh
+52
+D/home/mkaditya/.config/oh-my-zsh
 	..
 0
-D/home/mkaditya/College/Semester 3/PPW/story/story/home/static
-	css
+D/home/mkaditya
+	podcast-cli-1.2.0-linux-amd64
+18
+D/home/mkaditya/College
+	mkadit-journal
+7
+D/home/mkaditya/.config
+	zsh
+52
+D/home/mkaditya/.config/zsh
+	.p10k.zsh
 1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	__init__.py
-5
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	home
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/home
-	__init__.py
+D/home/mkaditya
+	Documents
+3
+D/home/mkaditya/.config
+	zsh
+40
+D/home/mkaditya/.config/zsh
+	.zcompdump.archli.57662
 5
 D/home/mkaditya
-	College
-10
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	story
-3
-D/home/mkaditya/College/Semester 3/PPW/story/story/story
-	static
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story/story/static
+	databases-incognito
+12
+D/home/mkaditya/databases-incognito
 	..
 0
-D/home/mkaditya/College/Semester 3/PPW/story/story/story
-	__pycache__
-1
-D/home/mkaditya/College/Semester 3/PPW/story/story
-	story
+D/home/mkaditya
+	db.json
+16
+D/home/mkaditya/Music/podcast
+	Critical Role
+3
+D/home/mkaditya/Music/podcast/Critical Role
+	..
+0
+D/home/mkaditya/Music/podcast
+	Critical Role
+3
+D/home/mkaditya/Music/podcast/Critical Role
+	20181031-Talks Machina_ Discussing CR and the Club of Misfits (Laura's One-Shot).mp3
+4
+D/home/mkaditya/Music/podcast
+	Critical Role
 3
 D/home/mkaditya
-	College
-10
-D/home/mkaditya/College
-	Semester 1
-5
+	Cr
+2
+D/home/mkaditya/Cr
+	Arrival at Kraghammer _ Critical Role - VOX MACHINA _ Episode 1.webm
+2
+D/home/mkaditya
+	Cr
+2
+D/home/mkaditya/Cr
+	downloaded.txt
+4
+D/home/mkaditya/github/dotfile
+	README.md
+2
+D/home/mkaditya
+	Cr
+2
 D/home/mkaditya/github
+	dotfile
+11
+D/home/mkaditya/github/dotfile
+	README.md
+2
+D/home/mkaditya/Cr
 	..
 0
 D/home/mkaditya
 	College
-9
+1
+D/home/mkaditya/College
+	mkadit-journal
+7
+D/home/mkaditya
+	Music
+6
+D/home/mkaditya/Music
+	podcast
+4
+D/home/mkaditya/Music/podcast
+	Critical Role
+3
+D/home/mkaditya/Music/podcast/Critical Role
+	VOX\ MACHINA_C1
+1
+D/home/mkaditya/Music/podcast/Critical Role/VOX\ MACHINA_C1
+	Arrival at Kraghammer _ Critical Role - VOX MACHINA _ Episode 1.mp3
+1
+D/home/mkaditya
+	..
+0
+D/home/mkaditya/github
+	dotfile
+11
+D/home/mkaditya/github/dotfile
+	.local
+2
+D/home/mkaditya/github/dotfile/.local
+	src
+2
+D/home/mkaditya/github/dotfile/.local/src
+	dmenu
+1
+D/home/mkaditya/github/dotfile/.local
+	bin
+1
+D/home/mkaditya/github/dotfile/.local/bin
+	..
+0
+D/home/mkaditya/github/dotfile/.local
+	bin
+1
+D/home/mkaditya/github/dotfile
+	.fzf.zsh
+8
+D/home/mkaditya
+	..
+0
+D/home/mkaditya/R
+	
+0
+D/home/mkaditya
+	..
+0
+D/home/mkaditya/Documents
+	
+0
+D/home/mkaditya
+	..
+0
+D/home/mkaditya/Documents/notion
+	..
+0
+D/home/mkaditya
+	College
+1
+D/home/mkaditya/College
+	17an
+1
+D/home/mkaditya/College/17an
+	Detail\ Acara
+1
+D/home/mkaditya/College/17an/Detail\ Acara
+	Essay.md
+1
+D/home/mkaditya/College/17an
+	Detail Acara
+1
+D/home/mkaditya
+	College
+1
+D/home/mkaditya/College
+	17an
+1
+D/home/mkaditya/College/17an
+	Detail Acara
+1
+D/home/mkaditya/College/17an/Detail Acara
+	Game-Online.md
+3
+D/home/mkaditya
+	College
+1
+D/home/mkaditya/Pictures
+	wallpaper
+3
+D/home/mkaditya/Pictures/wallpaper
+	95305.jpg
+2
+D/home/mkaditya/Pictures
+	87pioxkevde31.png
+4
+D/home/mkaditya
+	College
+1
+D/home/mkaditya/Pictures
+	Screenshot
+2
+D/home/mkaditya/Pictures/Screenshot
+	2020-06-23_01-54-08.png
+12
+D/home/mkaditya/Pictures
+	Screenshot
+2
+D/home/mkaditya
+	pic-full-200713-2114-57.png
+17
+D/home/mkaditya/Music/podcast
+	Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+4
+D/home/mkaditya/Music/podcast/Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+	20131125-The Underwater Mortgage Escape Plan.mp3
+6
+D/home/mkaditya/Music/podcast
+	Critical Role
+3
+D/home/mkaditya/Music
+	podcast
+4
+D/home/mkaditya/Music/podcast
+	Critical Role
+3
+D/home/mkaditya/Music/podcast/Critical Role
+	20180523-Talks Machina_ Discussing C2E19 - The Gentleman's Path.mp3
+2
+D/home/mkaditya/Music/podcast
+	Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+4
+D/home/mkaditya/Music/podcast/Listen Money Matters - Free your inner financial badass. All the stuff you should know about personal finance.
+	20131205-The Beginner’s Guide to Simple Investing.mp3
+8
+D/home/mkaditya/Music/podcast
+	Critical Role
+3
+D/home/mkaditya/Music
+	audiobook
+3
+D/home/mkaditya/Music/audiobook
+	Artemis Fowl
+2
+D/home/mkaditya/Music/audiobook/Artemis Fowl
+	01 - Artemis Fowl
+2
+D/home/mkaditya/Music/audiobook/Artemis Fowl/01 - Artemis Fowl
+	Artemis Fowl 01 - Artemis Fowl.mp3
+3
+D/home/mkaditya
+	pic-full-200713-2114-57.png
+17
+D/home/mkaditya/College
+	17an
+1
+D/home/mkaditya/College/17an
+	Detail Acara
+1
+D/home/mkaditya/College/17an/Detail Acara
+	Game-Online.pdf
+5
+D/home/mkaditya/College/17an
+	Detail\ Acara
+2
+D/home/mkaditya/College/17an/Detail\ Acara
+	Game-Online
+1
+D/home/mkaditya/College/17an
+	Detail Acara
+1
+D/home/mkaditya/College/17an/Detail Acara
+	Lomba-Pidato.md
+4
 
 # Command line history (oldest to newest):
+:! sudo rm %f
+:mkdir scipts
+:! ls -a | wc -l
+:m
+:mkdir pdf
+:! convert 
+:! convert %f Tatib_D_1906302485_MuhammadKrishertantoAdityaputro.pdf
+:! convert -rotate 90 page\ %f Tatib_D_1906302485_MuhammadKrishertantoAdityaputro.pdf
+:! convert -rotate 90 page %f Tatib_D_1906302485_MuhammadKrishertantoAdityaputro.pdf
+:! convert -rotate 90 %f Tatib_D_1906302485_MuhammadKrishertantoAdityaputro.pdf
+:!zathura
+:mkdir College
+:mkdir DnD
+:mkdir Lab\ 06
+:!zip Lab\ 06_D_JCN_1906302485_MuhammadKrishertantoAdityaputro.zip %f
+:!zip Lab06_D_JCN_1906302485_MuhammadKrishertantoAdityaputro.zip %f
+:!zip Lab07_D_JCN_1906302485_MuhammadKrishertantoAdityaputro.zip *.java
+:filter
+:filter [^*.java]
+:filter [^.java]
+:filter [*.java]
+:filter ^[*.java]
+:filter java
+:filter ^java
+:filter [i]
+:filter [ia]
+:filter [^java]
+:filter \*.java
+:filter \^.java
+:filter \.java
+:filter /.+.\(java\)$/i
+:!zip Lab08_D_A_JCN_1906302485_MuhammadKrishertantoAdityaputro.zip *.java
+:!zip Exia__1906302485_B_MuhammadKrishertantoAdityaputro_Lab5.zip *.java
 :!zip Exia__1906302485_B_MuhammadKrishertantoAdityaputro_Lab5.zip 
 :!zip Exia__1906302485_B_MuhammadKrishertantoAdityaputro_Lab5.zip %f
 :!lowriter --convert-to .pdf %f
@@ -780,6 +777,8 @@ D/home/mkaditya
 :touch a
 :w
 :mkdir _drafts/
+:!zip
+:zip
 :zip lab10
 :!zip -r -q %f
 :!zip -r lab10.zip $f
@@ -807,63 +806,22 @@ D/home/mkaditya
 :mkdir audiobook
 :mkdir podcast
 :! d
+:help
 :%s
 :mkdir VOX MACHINA_C1
 :unzip %f
+:unzip
 :! unzip %f
 :! unzip
+:!unzip
 :!unzip %
 :!unzip %f -r
+:!unzip *.zip
 :!unzip '*.zip'
 :!unzip '%f'
 :mkdir 17an
 :mkdir Detail Acara
-:filter *.zip
-:!unzip *.zip
-:mkdir Proposal
-:shell
-:! google-chrome-stable index.html
-:e Komentar-Terheboh.md
-:!wa
-:!wallset --video %
-:xwinwrap -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid WID --loop -
-:xwinwrap -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid WID --loop --no-audio %
-:xwinwrap -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid WID --loop --no-audio %f
-:!xwinwrap -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid WID --loop --no-audio %f
-:!xwinwrap -ov -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid WID --loop --no-audio %f
-:!diswon
-:!disown
 :!unzip %f
-:mkdir Picture
-:Old\ Data
-:mkdir Old\ Data
-:ffmpeg -i %f -qscale:v 2 output_%03d.jpg
-:m
-:mkdir DDP0
-:Soal Gabut Answer
-:mkdir Soal Gabut Answer
-:mkdir Soal GabutAnswer
-:mkdir Soal\ Gabut\ Answer
-:e no1.py
-:e no2.py
-:e no3.py
-:help
-:sort
-:mkdir Story\ 1
-:! ffmpeg -i wallhaven-mdjmqy.png -vf scale=1920:1080 lamylockscreen.jpg
-:mkdir something
-:unzip
-:!unzip
-:dsa
-:cd
-:zip story3.zip
-:!zip story3.zip
-:!zip
-:zip
-:zip %f
-:!zip story3 %f
-:mkdir img
-:mkdir css
 :q
 
 # Search history (oldest to newest):
@@ -962,6 +920,7 @@ D/home/mkaditya
 /quyte
 /gruvbox
 /config
+/qute
 /scre
 /neo
 /dmenufm
@@ -972,18 +931,8 @@ D/home/mkaditya
 /shadow
 /zsh
 /kraghammer
-/1
-/1.mp3
-/episode 1
-/Episode 1
-/camera
-/lamy
-/zip
-/qute
 
 # Prompt history (oldest to newest):
-pleaf_puddle_water_144848_3840x2160.jpgno1
-pno5.png
 p.zsh-theme-gruvbox-material-dark
 p.profile
 p.p10k_backup.zsh
@@ -1034,20 +983,13 @@ pVOX\ MACHINA_C1
 pDetail\ Acara
 pEssay.md
 pDetail Acara
-pGame On.md
-pWebsite2
-pIklan-Layanan-Masyarakat.md
-pKomentar-Terheboh.md
-pstory-1
-pbg.jpg
-pface.jpg
-pLab 00
-pff14.png
-ptmuxline
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/mkaditya/.local/share/vifm/Trash/000_Game-Online.html
+""/home/mkaditya/.local/share/vifm/Trash/000_Game-Online.md
+""/home/mkaditya/.local/share/vifm/Trash/000_Game-Online.pdf
 
 # Directory stack (oldest to newest):
 
@@ -2744,241 +2686,3 @@ t/home/mkaditya/.local/share/vifm/Trash/000_Game-Online.md
 	/home/mkaditya/College/17an/Detail Acara/Game-Online.md
 t/home/mkaditya/.local/share/vifm/Trash/000_Game-Online.pdf
 	/home/mkaditya/College/17an/Detail Acara/Game-Online.pdf
-t/home/mkaditya/.local/share/vifm/Trash/000_Game Online 03dfaf9420a647adbdf77694cf49f506
-	/home/mkaditya/College/17an/Detail Acara/Game Online 03dfaf9420a647adbdf77694cf49f506
-t/home/mkaditya/.local/share/vifm/Trash/000_Game Online 03dfaf9420a647adbdf77694cf49f506.md
-	/home/mkaditya/College/17an/Detail Acara/Game Online 03dfaf9420a647adbdf77694cf49f506.md
-t/home/mkaditya/.local/share/vifm/Trash/000_Game-Online.zip Menu-Sehat.zip Sepeda-Hias
-	/home/mkaditya/College/17an/Detail Acara/Game-Online.zip Menu-Sehat.zip Sepeda-Hias
-t/home/mkaditya/.local/share/vifm/Trash/000_Game-Online
-	/home/mkaditya/College/17an/Detail Acara/Game-Online
-t/home/mkaditya/.local/share/vifm/Trash/000_Game-Online.zip
-	/home/mkaditya/College/17an/Detail Acara/Game-Online.zip
-t/home/mkaditya/.local/share/vifm/Trash/000_Menu-Sehat.zip
-	/home/mkaditya/College/17an/Detail Acara/Menu-Sehat.zip
-t/home/mkaditya/.local/share/vifm/Trash/000_Sepeda-Hias.zip
-	/home/mkaditya/College/17an/Detail Acara/Sepeda-Hias.zip
-t/home/mkaditya/.local/share/vifm/Trash/000_Untitled document.docx
-	/home/mkaditya/Downloads/Untitled document.docx
-t/home/mkaditya/.local/share/vifm/Trash/000_Untitled document.pdf
-	/home/mkaditya/Downloads/Untitled document.pdf
-t/home/mkaditya/.local/share/vifm/Trash/000_552399.png
-	/home/mkaditya/College/17an/Website/tutorial-29/Bootstrap 4 Site Files/Bootstrap 4 Site Files/img/552399.png
-t/home/mkaditya/.local/share/vifm/Trash/000_tutorial-29
-	/home/mkaditya/College/17an/Website/tutorial-29
-t/home/mkaditya/.local/share/vifm/Trash/000_tutorial-38
-	/home/mkaditya/Downloads/tutorial-38
-t/home/mkaditya/.local/share/vifm/Trash/001_tutorial-29
-	/home/mkaditya/Downloads/tutorial-29
-t/home/mkaditya/.local/share/vifm/Trash/000_emoji
-	/home/mkaditya/College/17an/Website/Bootstrap 2020 Starter Files/img/emoji
-t/home/mkaditya/.local/share/vifm/Trash/000_matrix.jpg
-	/home/mkaditya/College/17an/Website/Bootstrap 2020 Starter Files/img/matrix.jpg
-t/home/mkaditya/.local/share/vifm/Trash/000_code.jpg
-	/home/mkaditya/College/17an/Website/Bootstrap 2020 Starter Files/img/code.jpg
-t/home/mkaditya/.local/share/vifm/Trash/000_12-Website-Bundle.html
-	/home/mkaditya/College/17an/Website/Bootstrap 2020 Starter Files/12-Website-Bundle.html
-t/home/mkaditya/.local/share/vifm/Trash/005_a.java
-	/home/mkaditya/College/a.java
-t/home/mkaditya/.local/share/vifm/Trash/001_nav.html
-	/home/mkaditya/College/17an/Website2/nav.html
-t/home/mkaditya/.local/share/vifm/Trash/000_n9u9bk8s7ma31.png
-	/home/mkaditya/College/17an/Website/img/n9u9bk8s7ma31.png
-t/home/mkaditya/.local/share/vifm/Trash/000_h6f70szyude31.png
-	/home/mkaditya/College/17an/Website/img/h6f70szyude31.png
-t/home/mkaditya/.local/share/vifm/Trash/000_836321.png
-	/home/mkaditya/College/17an/Website/img/836321.png
-t/home/mkaditya/.local/share/vifm/Trash/000_36812.png
-	/home/mkaditya/College/17an/Website/img/36812.png
-t/home/mkaditya/.local/share/vifm/Trash/000_87pioxkevde31.png
-	/home/mkaditya/College/17an/Website/img/87pioxkevde31.png
-t/home/mkaditya/.local/share/vifm/Trash/000_Website2
-	/home/mkaditya/College/17an/Website2
-t/home/mkaditya/.local/share/vifm/Trash/000_Iklan-Layanan-Masyarakat
-	/home/mkaditya/College/17an/Detail Acara/Iklan-Layanan-Masyarakat
-t/home/mkaditya/.local/share/vifm/Trash/000_Iklan-Layanan-Masyarakat.zip
-	/home/mkaditya/College/17an/Detail Acara/Iklan-Layanan-Masyarakat.zip
-t/home/mkaditya/.local/share/vifm/Trash/000_Komentar-Terheboh.md
-	/home/mkaditya/College/17an/Detail Acara/Komentar-Terheboh.md
-t/home/mkaditya/.local/share/vifm/Trash/000_Komentar-Terheboh.pdf
-	/home/mkaditya/College/17an/Detail Acara/Komentar-Terheboh.pdf
-t/home/mkaditya/.local/share/vifm/Trash/000_Komentar Terheboh 69f607c50d5344d88da783d0725f94f2
-	/home/mkaditya/College/17an/Detail Acara/Komentar Terheboh 69f607c50d5344d88da783d0725f94f2
-t/home/mkaditya/.local/share/vifm/Trash/001_Komentar Terheboh 69f607c50d5344d88da783d0725f94f2
-	/home/mkaditya/College/17an/Detail Acara/Komentar-Terheboh./Komentar Terheboh 69f607c50d5344d88da783d0725f94f2
-t/home/mkaditya/.local/share/vifm/Trash/000_Komentar Terheboh 69f607c50d5344d88da783d0725f94f2.md
-	/home/mkaditya/College/17an/Detail Acara/Komentar-Terheboh./Komentar Terheboh 69f607c50d5344d88da783d0725f94f2.md
-t/home/mkaditya/.local/share/vifm/Trash/000_Komentar-Terheboh.
-	/home/mkaditya/College/17an/Detail Acara/Komentar-Terheboh.
-t/home/mkaditya/.local/share/vifm/Trash/000_Komentar-Terheboh..zip
-	/home/mkaditya/College/17an/Detail Acara/Komentar-Terheboh..zip
-t/home/mkaditya/.local/share/vifm/Trash/000_Chika Dance - Kawaii Anime Dance-OdZrFtIGzfU.mp4
-	/home/mkaditya/Chika Dance - Kawaii Anime Dance-OdZrFtIGzfU.mp4
-t/home/mkaditya/.local/share/vifm/Trash/000_Chika-Dance.mp4
-	/home/mkaditya/Chika-Dance.mp4
-t/home/mkaditya/.local/share/vifm/Trash/000_scipts
-	/home/mkaditya/temp/scipts
-t/home/mkaditya/.local/share/vifm/Trash/000_temp
-	/home/mkaditya/temp/temp
-t/home/mkaditya/.local/share/vifm/Trash/000_AsistenDosen.java
-	/home/mkaditya/temp/AsistenDosen.java
-t/home/mkaditya/.local/share/vifm/Trash/000_Assignment2UML.jpg
-	/home/mkaditya/temp/Assignment2UML.jpg
-t/home/mkaditya/.local/share/vifm/Trash/000_ButirPenilaian.java
-	/home/mkaditya/temp/ButirPenilaian.java
-t/home/mkaditya/.local/share/vifm/Trash/000_GlasDOS.java
-	/home/mkaditya/temp/GlasDOS.java
-t/home/mkaditya/.local/share/vifm/Trash/000_KomponenPenilaian.java
-	/home/mkaditya/temp/KomponenPenilaian.java
-t/home/mkaditya/.local/share/vifm/Trash/000_Mahasiswa.java
-	/home/mkaditya/temp/Mahasiswa.java
-t/home/mkaditya/.local/share/vifm/Trash/000_a.aux
-	/home/mkaditya/temp/a.aux
-t/home/mkaditya/.local/share/vifm/Trash/002_a.html
-	/home/mkaditya/temp/a.html
-t/home/mkaditya/.local/share/vifm/Trash/000_a.out
-	/home/mkaditya/temp/a.out
-t/home/mkaditya/.local/share/vifm/Trash/002_a.pdf
-	/home/mkaditya/temp/a.pdf
-t/home/mkaditya/.local/share/vifm/Trash/003_a.py
-	/home/mkaditya/temp/a.py
-t/home/mkaditya/.local/share/vifm/Trash/000_a.rmd
-	/home/mkaditya/temp/a.rmd
-t/home/mkaditya/.local/share/vifm/Trash/000_a.vim
-	/home/mkaditya/temp/a.vim
-t/home/mkaditya/.local/share/vifm/Trash/000_alia
-	/home/mkaditya/temp/alia
-t/home/mkaditya/.local/share/vifm/Trash/000_b.vim
-	/home/mkaditya/temp/b.vim
-t/home/mkaditya/.local/share/vifm/Trash/000_blok
-	/home/mkaditya/temp/blok
-t/home/mkaditya/.local/share/vifm/Trash/000_c.vim
-	/home/mkaditya/temp/c.vim
-t/home/mkaditya/.local/share/vifm/Trash/000_country.txt
-	/home/mkaditya/temp/country.txt
-t/home/mkaditya/.local/share/vifm/Trash/000_e
-	/home/mkaditya/temp/e
-t/home/mkaditya/.local/share/vifm/Trash/004_index.markdown
-	/home/mkaditya/temp/index.markdown
-t/home/mkaditya/.local/share/vifm/Trash/000_initvim
-	/home/mkaditya/temp/initvim
-t/home/mkaditya/.local/share/vifm/Trash/000_java.vim
-	/home/mkaditya/temp/java.vim
-t/home/mkaditya/.local/share/vifm/Trash/001_lab04_RAC_template_rev1.zip
-	/home/mkaditya/temp/lab04_RAC_template_rev1.zip
-t/home/mkaditya/.local/share/vifm/Trash/000_mutt
-	/home/mkaditya/temp/mutt
-t/home/mkaditya/.local/share/vifm/Trash/000_newsb
-	/home/mkaditya/temp/newsb
-t/home/mkaditya/.local/share/vifm/Trash/000_prof
-	/home/mkaditya/temp/prof
-t/home/mkaditya/.local/share/vifm/Trash/000_qute
-	/home/mkaditya/temp/qute
-t/home/mkaditya/.local/share/vifm/Trash/000_shortcut
-	/home/mkaditya/temp/shortcut
-t/home/mkaditya/.local/share/vifm/Trash/000_test.vim
-	/home/mkaditya/temp/test.vim
-t/home/mkaditya/.local/share/vifm/Trash/000_vifm
-	/home/mkaditya/temp/vifm
-t/home/mkaditya/.local/share/vifm/Trash/000_xprof
-	/home/mkaditya/temp/xprof
-t/home/mkaditya/.local/share/vifm/Trash/000_zprof
-	/home/mkaditya/temp/zprof
-t/home/mkaditya/.local/share/vifm/Trash/000_zsh
-	/home/mkaditya/temp/zsh
-t/home/mkaditya/.local/share/vifm/Trash/000_Internal Migrate
-	/home/mkaditya/temp/Internal Migrate
-t/home/mkaditya/.local/share/vifm/Trash/000_Music
-	/home/mkaditya/temp/Music
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200713-2114-57.png
-	/home/mkaditya/pic-full-200713-2114-57.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200729-1619-04.png
-	/home/mkaditya/pic-full-200729-1619-04.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200807-1517-44.png
-	/home/mkaditya/pic-full-200807-1517-44.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200807-1537-06.png
-	/home/mkaditya/pic-full-200807-1537-06.png
-t/home/mkaditya/.local/share/vifm/Trash/000___pycache__
-	/home/mkaditya/__pycache__
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200807-1537-13.png
-	/home/mkaditya/pic-full-200807-1537-13.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200807-1714-49.png
-	/home/mkaditya/pic-full-200807-1714-49.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200807-1715-41.png
-	/home/mkaditya/pic-full-200807-1715-41.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200807-1717-34.png
-	/home/mkaditya/pic-full-200807-1717-34.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200807-1717-41.png
-	/home/mkaditya/pic-full-200807-1717-41.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200826-1010-35.png
-	/home/mkaditya/pic-full-200826-1010-35.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200826-1010-40.png
-	/home/mkaditya/pic-full-200826-1010-40.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200826-1118-30.png
-	/home/mkaditya/pic-full-200826-1118-30.png
-t/home/mkaditya/.local/share/vifm/Trash/000_X.class
-	/home/mkaditya/X.class
-t/home/mkaditya/.local/share/vifm/Trash/000_c.py.7146ff77f97e014719da0485102f7d87.py
-	/home/mkaditya/c.py.7146ff77f97e014719da0485102f7d87.py
-t/home/mkaditya/.local/share/vifm/Trash/000_cl.py
-	/home/mkaditya/cl.py
-t/home/mkaditya/.local/share/vifm/Trash/000_d.py
-	/home/mkaditya/d.py
-t/home/mkaditya/.local/share/vifm/Trash/000_g.py
-	/home/mkaditya/g.py
-t/home/mkaditya/.local/share/vifm/Trash/000_o.py
-	/home/mkaditya/o.py
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200914-0847-04.png
-	/home/mkaditya/pic-full-200914-0847-04.png
-t/home/mkaditya/.local/share/vifm/Trash/000_test.py
-	/home/mkaditya/test.py
-t/home/mkaditya/.local/share/vifm/Trash/000_test2.py
-	/home/mkaditya/test2.py
-t/home/mkaditya/.local/share/vifm/Trash/000_week2.py
-	/home/mkaditya/week2.py
-t/home/mkaditya/.local/share/vifm/Trash/000_ListNode.java
-	/home/mkaditya/ListNode.java
-t/home/mkaditya/.local/share/vifm/Trash/000_story 1
-	/home/mkaditya/College/Semester 3/PPW/story/story 1
-t/home/mkaditya/.local/share/vifm/Trash/000_-u
-	/home/mkaditya/-u
-t/home/mkaditya/.local/share/vifm/Trash/000_-f
-	/home/mkaditya/-f
-t/home/mkaditya/.local/share/vifm/Trash/000_lamylockscreen.jpg
-	/home/mkaditya/Pictures/wallpaper/lamylockscreen.jpg
-t/home/mkaditya/.local/share/vifm/Trash/001_env
-	/home/mkaditya/env
-t/home/mkaditya/.local/share/vifm/Trash/000_home
-	/home/mkaditya/College/Semester 3/PPW/story/story/home/static/home
-t/home/mkaditya/.local/share/vifm/Trash/000_.Komorebi.prop
-	/home/mkaditya/.Komorebi.prop
-t/home/mkaditya/.local/share/vifm/Trash/000_.python_history
-	/home/mkaditya/.python_history
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-selected-200924-1127-06.png
-	/home/mkaditya/pic-selected-200924-1127-06.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200924-1226-10.png
-	/home/mkaditya/pic-full-200924-1226-10.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200920-2225-49.png
-	/home/mkaditya/pic-full-200920-2225-49.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200924-1156-55.png
-	/home/mkaditya/pic-full-200924-1156-55.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200924-1226-26.png
-	/home/mkaditya/pic-full-200924-1226-26.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-full-200925-1519-50.png
-	/home/mkaditya/pic-full-200925-1519-50.png
-t/home/mkaditya/.local/share/vifm/Trash/000_pic-window-200924-2327-32.png
-	/home/mkaditya/pic-window-200924-2327-32.png
-t/home/mkaditya/.local/share/vifm/Trash/000_the-psychology-of-color-in-branding-ignyte.pdf
-	/home/mkaditya/the-psychology-of-color-in-branding-ignyte.pdf
-t/home/mkaditya/.local/share/vifm/Trash/000_Lab1.java
-	/home/mkaditya/Lab1.java
-t/home/mkaditya/.local/share/vifm/Trash/000_Lab1$InputReader.class
-	/home/mkaditya/Lab1$InputReader.class
-t/home/mkaditya/.local/share/vifm/Trash/000_Lab1.class
-	/home/mkaditya/Lab1.class
-t/home/mkaditya/.local/share/vifm/Trash/000_ff14.png
-	/home/mkaditya/College/Semester 3/PPW/ff14.png
-t/home/mkaditya/.local/share/vifm/Trash/000_story3.zip
-	/home/mkaditya/College/Semester 3/PPW/story3.zip
-t/home/mkaditya/.local/share/vifm/Trash/000_static
-	/home/mkaditya/College/Semester 3/PPW/story/story/story/static
